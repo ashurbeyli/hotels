@@ -1,0 +1,27 @@
+.Filter-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    color: #17317f;
+    padding: 8px 10px;
+    border-bottom: 1px solid #17317f;
+    cursor: pointer;
+}
+.Filter-item:last-child {
+    border-bottom: 1px solid white;
+}
+.Filter-item:hover,
+.Filter-item.selected {
+    background: #17317f;
+    color: white;
+    border-bottom: 1px solid #17317f;
+}
+.Filter-icon {
+    float: right;
+    color: #d4d4d4;
+}
+.Filter-item:hover .Filter-icon,
+.Filter-item.selected .Filter-icon {
+    color: white;
+}

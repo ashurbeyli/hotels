@@ -9,7 +9,7 @@
   flex: 2;
   margin: 10px;
 }
-@media (max-width: 400px) {
+@media (max-width: 630px) {
   .App-container {
     flex-direction: column;
   }
