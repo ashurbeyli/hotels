@@ -1,0 +1,16 @@
+.App-container {
+  display: flex;
+}
+.App-filter {
+  flex: 1;
+  margin: 10px;
+}
+.App-hotels {
+  flex: 2;
+  margin: 10px;
+}
+@media (max-width: 400px) {
+  .App-container {
+    flex-direction: column;
+  }
+}
