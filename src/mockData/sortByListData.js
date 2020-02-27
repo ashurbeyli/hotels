@@ -2,17 +2,17 @@ import { faEuroSign, faSortAlphaDown, faStar } from "@fortawesome/free-solid-svg
 
 const sortByListData = [
     {
-        sortBy: 'alphabetically',
+        id: 'title',
         text: 'alphabetically',
         icon: faSortAlphaDown
     },
     {
-        sortBy: 'price',
+        id: 'price',
         text: 'price',
         icon: faEuroSign
     },
     {
-        sortBy: 'rating',
+        id: 'rating',
         text: 'star rating',
         icon: faStar
     }

@@ -19,14 +19,14 @@ const hotelsListData = [
         image: 'hotel-image-2.png',
         title: 'Golf Hotel',
         area: 'Costa Adeje, Tenerife',
-        rating: 5,
+        rating: 4,
         adults: 2,
         children: 2,
         infant: 1,
         date: '3rd July 2019',
         days: 7,
         departFrom: 'East Midlands',
-        price: 1136.50,
+        price: 2036.50,
         description: 'lorem ipsim dolar'
     },
     {
@@ -34,14 +34,14 @@ const hotelsListData = [
         image: 'hotel-image-3.png',
         title: 'Las Piramidas Resort',
         area: 'Costa Adeje, Tenerife',
-        rating: 5,
+        rating: 2,
         adults: 2,
         children: 2,
         infant: 1,
         date: '3rd July 2019',
         days: 7,
         departFrom: 'East Midlands',
-        price: 1136.50,
+        price: 556.50,
         description: 'lorem ipsum dolar'
     },
 ];
