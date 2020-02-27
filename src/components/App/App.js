@@ -9,9 +9,9 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App-container">
-      <div className="App-filter">{withSortByListData(FilterItems)}</div>
-      <div className="App-hotels">{withHotelsListData(HotelsList)}</div>
+    <div className="app-container">
+      <div className="app-container__filter-section">{withSortByListData(FilterItems)}</div>
+      <div className="app-container__hotels-section">{withHotelsListData(HotelsList)}</div>
     </div>
   );
 }
