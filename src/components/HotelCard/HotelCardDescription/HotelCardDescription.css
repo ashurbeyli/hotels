@@ -1,0 +1,37 @@
+.hotel-card__description {
+    margin-top: -35px;
+}
+.hotel-card__description__read-more-button {
+    background: white;
+    outline: none;
+    border: none;
+    color: #17317f;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.hotel-card__description__read-more-button:hover {
+    color: white;
+    background: #17317f;
+}
+.hotel-card__description__read-more-button__icon {
+    float: right;
+    margin-left: 20px;
+}
+.hotel-card__description__overview {
+    padding: 20px;
+    font-size: 13px;
+}
+.hotel-card__description__overview__title {
+    font-size: 15px;
+    color: #2c448b;
+}
+
+@media (max-width: 810px) {
+    .hotel-card__description {
+        margin-top: 0;
+    }
+    .hotel-card__description__read-more-button {
+        width: 100%;
+        text-align: left;
+    }
+}

@@ -1,4 +1,4 @@
-.Filter-item {
+.filter-item {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -8,20 +8,20 @@
     border-bottom: 1px solid #17317f;
     cursor: pointer;
 }
-.Filter-item:last-child {
+.filter-item:last-child {
     border-bottom: 1px solid white;
 }
-.Filter-item:hover,
-.Filter-item.selected {
+.filter-item:hover,
+.filter-item.selected {
     background: #17317f;
     color: white;
     border-bottom: 1px solid #17317f;
 }
-.Filter-icon {
+.filter-item__icon {
     float: right;
     color: #d4d4d4;
 }
-.Filter-item:hover .Filter-icon,
-.Filter-item.selected .Filter-icon {
+.filter-item:hover .filter-item__icon,
+.filter-item.selected .filter-item__icon {
     color: white;
 }
