@@ -4,9 +4,12 @@
     align-items: center;
     background: white;
     color: #17317f;
-    padding: 8px 10px;
+    padding: 12px 10px;
+    border: none;
     border-bottom: 1px solid #17317f;
     cursor: pointer;
+    outline: none;
+    width: 100%;
 }
 .filter-item:last-child {
     border-bottom: 1px solid white;
